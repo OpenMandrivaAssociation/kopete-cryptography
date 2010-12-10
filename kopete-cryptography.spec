@@ -1,6 +1,6 @@
 Name:           kopete-cryptography
 Version:        1.3.0
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Encrypts and signs messages in Kopete using the OpenPGP
 
 Group:          Graphical desktop/KDE
