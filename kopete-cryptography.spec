@@ -1,13 +1,12 @@
 Name:           kopete-cryptography
 Version:        1.3.0
-Release:        %mkrel 2
+Release:        3
 Summary:        Encrypts and signs messages in Kopete using the OpenPGP
 
 Group:          Graphical desktop/KDE
 License:        GPLv2+
 URL:            http://extragear.kde.org/apps/kopete%20cryptography/
-Source0:        ftp://ftp.kde.org/pub/kde/stable/4.2.3/src/extragear/%{name}-%{version}-kde4.2.3.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
+Source0:        ftp://ftp.kde.org/pub/kde/stable/extragear/kopete-cryptography-%{version}-kde4.4.0.tar.bz2
 
 buildrequires:  kdepimlibs4-devel
 buildrequires:  kdenetwork4-devel
@@ -35,7 +34,7 @@ standard. It also handles incoming messages that are encrypted or signed.
 #--------------------------------------------------------------------
 
 %prep
-%setup -q -n %{name}-%{version}-kde4.2.3
+%setup -q -n %{name}-%{version}-kde4.4.0
 
 
 %build
